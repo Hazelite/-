@@ -5,11 +5,37 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
     background-color: rgb(82, 1, 203);
     color: #fdfdfd;
     display: flex;
     flex-direction: column;
+}
+h1 {
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+
+}
+h2{
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size:50px;
+
+}
+h3{
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size:100px;
 }
 html, body {
     height: 100%;
@@ -23,14 +49,12 @@ html, body {
 }
 
 #bg-video {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    width:auto;
-    height:auto;
     z-index: -1; /* Send video behind content */
     opacity: 0.5; /* Optional: Adjust video opacity */
     overflow:hidden;
@@ -91,14 +115,14 @@ nav ul li a:hover {
 }
 
 .hero-content h2 {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 20px;
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 0;
 }
 
 .hero-content p {
     font-size: 1.25rem;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .cta-button {
@@ -128,7 +152,7 @@ nav ul li a:hover {
 
 /* Contact Container */
 .contact-container {
-    background-color: rgba(0, 0, 0, 0.85); /* Slightly transparent black */
+    background-color: rgba(0, 0, 0, 0.80); /* Slightly transparent black */
     padding: 40px;
     border-radius: 15px;
     max-width: 600px;
@@ -162,7 +186,7 @@ nav ul li a:hover {
     background-color: rgb(82, 1, 203);
 }
 .projects h3{
-    font-size:30px;
+    font-size:40px;
 }
 
 .project-gallery {
@@ -172,7 +196,7 @@ nav ul li a:hover {
 }
 
 .project-card {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.80);
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
