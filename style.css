@@ -269,13 +269,3 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
-    .hero-content h2 {
-        font-size: 2rem;
-    }
-
-    .cta-button {
-        padding: 6px 15px;
-        font-size: 0.9rem;
-    }
-}
