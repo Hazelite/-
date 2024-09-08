@@ -100,7 +100,7 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, #1e1e1e 0%, #333333 100%);
+    background-color: rgb(82, 1, 203);
     display: flex;
     justify-content: center;
     align-items: center;
