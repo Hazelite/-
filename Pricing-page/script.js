@@ -1,8 +1,3 @@
-window.addEventListener('scroll', function() {
-    const header = document.querySelector('header');
-    header.classList.toggle('sticky', window.scrollY > 0);
-});
-
 // Mobile navigation toggle
 var CSbody = document.querySelector('body');
 const CSnavbarMenu = document.querySelector('#cs-navigation');
@@ -50,24 +45,4 @@ function ariaExpanded() {
     } else {
         csUL.setAttribute('aria-expanded', 'false');
     }
-}
-// add classes for mobile navigation toggling
-
-CShamburgerMenu.addEventListener('click', function () {
-	CShamburgerMenu.classList.toggle('cs-active');
-	CSnavbarMenu.classList.toggle('cs-active');
-	CSbody.classList.toggle('cs-open');
-	// run the function to check the aria-expanded value
-	ariaExpanded();
-});
-
-// checks the value of aria expanded on the cs-ul and changes it accordingly whether it is expanded or not
-
-// mobile nav toggle code
-const dropDowns = Array.from(document.querySelectorAll('#cs-navigation .cs-dropdown'));
-for (const item of dropDowns) {
-	const onClick = () => {
-		item.classList.toggle('cs-active');
-	};
-	item.addEventListener('click', onClick);
 }
